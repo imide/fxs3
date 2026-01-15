@@ -1,6 +1,7 @@
 # Fx S3 Module
 
 This module is for personal use only. Support is not guaranteed.
+Bug fixes and contributions are welcome, however, unless sufficient interest is shown for this module, it will remain S3 only and for personal use.
 
 > [Fx](https://uber-go.github.io/fx/) module for [S3](https://docs.aws.amazon.com/sdk-for-go/v2/).
 
