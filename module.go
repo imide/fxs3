@@ -7,10 +7,10 @@ import (
 
 const ModuleName = "s3"
 
-// FxRedis is the [Fx] redis module.
+// FxS3Module is the [Fx] S3 module.
 //
 // [Fx]: https://github.com/uber-go/fx
-var FxRedisModule = fx.Module(
+var FxS3Module = fx.Module(
 	ModuleName,
 	fx.Provide(
 		fx.Annotate(NewDefaultS3ClientFactory, fx.As(new(S3ClientFactory))),
