@@ -1,3 +1,5 @@
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/imide/fxs3)](https://pkg.go.dev/github.com/imide/fxs3)
+
 # Fx S3 Module
 
 This module is for personal use only. Support is not guaranteed.
