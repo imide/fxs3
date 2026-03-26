@@ -1,6 +1,7 @@
 package fxs3
 
 import (
+	"github.com/ankorstore/yokai/config"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"go.uber.org/fx"
 )
@@ -21,7 +22,7 @@ var FxS3Module = fx.Module(
 type FxS3ClientParam struct {
 	fx.In
 	Lifecycle fx.Lifecycle
-	Options   s3.Options
+	Config    *config.Config
 	Factory   S3ClientFactory
 }
 
